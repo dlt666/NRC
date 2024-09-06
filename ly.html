@@ -1,0 +1,102 @@
+<!doctype html>
+<head>
+<style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        li {
+            list-style: none;
+            width: 500px;
+            height: 30px;
+            line-height: 30px;
+            background-color: cadetblue;
+        }
+        
+        #box {
+            width: 600px;
+            height: 200px;
+            margin: 0 auto;
+        }
+        
+        #text {
+            resize: none;
+            width: 600px;
+            height: 100px;
+        }
+        
+        #btn {
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: none;
+            background-color:#C0ECA3;
+            width: 50px;
+            height: 30px;
+            cursor: pointer;
+        }
+        
+        #txt {
+            margin-left: 200px;
+        }
+        
+        a {
+            cursor: pointer;
+            display: block;
+        }
+	.pl{
+		border: 1px solid #F50004;
+		align-items: center;
+	 }
+    </style>
+</head>
+ 
+<body>
+	<div id="txt" class="pl">
+        <p>评论：</p >
+ 
+    </div>
+    <div id="box" >
+        <h2>留言板</h2>
+        <textarea name="" id="text" cols="30" rows="10" placeholder="请输入评论"></textarea>
+ 
+    </div>
+    <!-- 提交按钮 -->
+    <button id="btn">提交</button>
+    <!-- 评论 -->
+ 
+    
+    <script>
+        /* 获取按钮 */
+        var btn = document.getElementById('btn');
+        /* 获取文本域 */
+        var text = document.getElementById('text');
+        /* 获取评论区 */
+        var txt = document.getElementById("txt")
+            /* 添加点击事件 */
+        btn.onclick = function() {
+            /* 获取文本域里的内容 */
+            var value = text.value
+                /* 创键li */
+            var ul = document.createElement('ul');
+            /* 把li放到ul */
+            var lis = `<li>${value}</li><a class="del">删除</a >`
+            ul.innerHTML = lis
+                /* 把lu插入到评论中 */
+            txt.appendChild(ul);
+            //清空文本域
+            text.value = "";
+            //自动获取焦点
+            text.focus();
+            var del = ul.querySelector('.del')
+                /* 绑定删除事件 */
+            del.onclick = function() {
+                /* 将自身删除 */
+                ul.remove();
+            }
+ 
+        }
+    </script>
+</body>

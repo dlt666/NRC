@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image: url("image/jrwmbg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.ju{
+	position: fixed;
+}
+
+.fh{
+	font-size: 3.73vw;
+	margin-left: 8.952vw;
+	padding-top:1.492vw;
+	height: 7.46vw;
+	width: 7.46vw;
+	
+}
+
+.fh a:link{
+	color: #3D54B4; 
+}
+
+.fh a:visited{
+	color: #3D54B4; 
+}
+.fh a:hover{
+	color: #DD13C5; 
+}
+
+.bgs{
+	font-size: 7.46vw;
+	color: #F2B53C;
+	transform: skew(5deg,-20deg);
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.bgs a:link{
+	color: #F2B53C; 
+}
+
+.bgs a:visited{
+	color: #F2B53C; 
+}
+.bgs a:hover{
+	color: #E3C3E5; 
+}
+
+.scb{
+	color: #56B4EA;
+	margin-top: 14.92vw;
+	font-size: 7.46vw;
+	transform: skew(5deg,-25deg);
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.scb a:link{
+	color: #56B4EA; 
+}
+
+.scb a:visited{
+	color: #56B4EA; 
+}
+.scb a:hover{
+	color: #E3C3E5; 
+}
+
+.wcb{
+	color: #CD3477;
+	padding-left: 22.38vw;
+	width: 100%;
+	font-size: 7.46vw;
+	text-shadow: 2px 2px 4px #000000;
+	text-align: right;
+}
+
+.wcb a:link{
+	color: #CD3477; 
+}
+
+.wcb a:visited{
+	color: #CD3477; 
+}
+.wcb a:hover{
+	color: #E3C3E5; 
+}
+
+a {
+	text-decoration: none;
+}

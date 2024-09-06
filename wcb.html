@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" href="wcb.css" type="text/css"> 
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="icon" href="image/logo.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="image/logo.jpg" type="image/x-icon">
+<meta charset="utf-8">
+<title>文创部</title>
+</head>
+
+<body>
+	<div class="spbj">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href=" ">NRC</a >
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">返回首页</a >
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="bgs.html">办公室</a >
+                </li>
+				<li class="nav-item">
+                    <a class="nav-link" href="scb.html">市场部</a >
+                </li>
+				<li class="nav-item">
+                    <a class="nav-link" href="wcb.html">文创部</a >
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<dix class="bgsnr">
+	<div class="bgswz">
+		<h1 class="bt">文创部招新</h1>
+		<div class="nr1">
+		<img src="image/scb1.png" width="50%">
+		<p>你听说了吗？机器人俱乐部还有一个充满神秘色彩的部门······</p>
+			<p>那就是文创部！</p>
+
+			<p>NRC文创部以涌流的灵感之泉作为动力，充分发挥艺术创造的能力，完美展示机器人俱乐部的特色与风采。
+
+
+
+在文创部，你的创意与创作、灵感与巧思将碰撞出一朵朵精彩的火花。从社团文化衫、徽章到宣传海报、明信片、公众号推文，多彩的设计背后都离不开我们文创小伙伴的灵感巧思和辛勤付出。
+
+
+
+在这里，萌新小白们还有机会学习到PS、Procreate以及各种绘图制图的软件应用。
+
+
+
+在这里，我们将如家人般一同学习成长。
+
+</p>
+			<img src="image/wcb2.jpg">
+			
+			<p>设计组
+
+将灵感和想法与设计加以整合，绘制设计样图，提供设计创意，将创意想法转化为实物。</p>
+			<img src="image/wcb3.jpg">
+			<img src="image/wcb3.1.jpg">
+			
+			<p>运营组
+
+负责各种活动的宣传与策划，包括策划案撰写，推送编排等；负责b站、微博、抖音等自媒体的运营及推广</p>
+			<img src="image/wcb4.jpg">
+			<img src="image/wcb4.1.jpg">
+			<p>制作组
+
+负责设计手工产品并制作；参与文创产品的设计讨论，配合设计出优秀的、可执行的符合大众审美、特色的文创产品；协助其他部门开展社团活动。</p>
+
+			<img src="image/wcb5.jpg">
+			<img src="image/wcb6.jpg">
+			<p>快来加入我们吧！</p>
+			<p>负责人微信</p>
+			<img src="image/bgs8.jpg">
+			<p></p>
+		</div>
+	</div>
+		</dix>
+		<div class="lyqy">
+		<div id="txt"><p>评论： </p></div>
+		<div id ="box1">
+			<h2>留言板</h2>
+			 <textarea name="" id="text" cols="30" rows="10" placeholder="请输入评论"></textarea>
+			</div>
+			<button id="btn">提交</button>
+		</div>
+	</div>
+	<footer class="bg-light text-center py-3 mt-5">
+    <p>没有更多了!</p >
+		
+</footer>
+	<script>
+        /* 获取按钮 */
+        var btn = document.getElementById('btn');
+        /* 获取文本域 */
+        var text = document.getElementById('text');
+        /* 获取评论区 */
+        var txt = document.getElementById("txt")
+            /* 添加点击事件 */
+        btn.onclick = function() {
+            /* 获取文本域里的内容 */
+            var value = text.value
+                /* 创键li */
+            var ul = document.createElement('ul');
+            /* 把li放到ul */
+            var lis = `<li>${value}</li><a class="del">删除</a >`
+            ul.innerHTML = lis
+                /* 把lu插入到评论中 */
+            txt.appendChild(ul);
+            //清空文本域
+            text.value = "";
+            //自动获取焦点
+            text.focus();
+            var del = ul.querySelector('.del')
+                /* 绑定删除事件 */
+            del.onclick = function() {
+                /* 将自身删除 */
+                ul.remove();
+            }
+ 
+        }
+    </script>
+</body>
+</html>

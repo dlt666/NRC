@@ -1,0 +1,28 @@
+/*div与标题h3样式*/
+div, h3{
+	margin:10px auto;
+	text-align:center;
+}
+/*文本输入框样式*/
+textarea{
+	width:95%;
+	height:200px;
+	text-indent:2em;
+	text-align:left;
+}
+/*按钮样式*/
+button{
+	width:150px;
+	height:30px;
+	margin:10px 0;
+}
+/*表格总体样式*/
+table{
+    width:95%;
+	margin:auto;	
+}
+/*单元格样式*/
+td{
+	text-align:left;
+	vertical-align:center;
+}

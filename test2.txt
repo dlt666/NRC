@@ -1,0 +1,6 @@
+This is the second edition,
+We add something in it.
+
+Modification on branch 'dev2',line1.
+Modification on branch 'master,line2.
+

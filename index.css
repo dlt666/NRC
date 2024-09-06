@@ -1,0 +1,158 @@
+
+body{
+	background-image: url("image/indexbg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.box1{
+		display: flex;
+}
+
+.index{
+	position: fixed;
+}
+
+.k1{
+	height: 4vw;
+	width: 78vw;
+	overflow: hidden;
+}
+
+.jrwm{
+	margin-top: 11.936vw;
+	height: 33vw;
+	width: 22vw;
+}
+
+.jrwm img{
+	max-width: 98%; /* 图片宽度不超过容器宽度 */
+    max-height: 98%; /* 图片高度不超过容器高度 */
+    height: 100%; /* 保持图片原始宽高比 */
+    width: auto; /* 保持图片原始宽高比 */
+}
+
+.dhl2{
+	display: flex;
+	height: 7.46vw;
+    width: 52vw;
+    position: absolute;
+    top: 7.45vw;
+    left: 23vw;
+}
+
+.dhl1 {
+  width: 0;
+  height: 0;
+  border-bottom: 3.73vw solid transparent; /* 尖角的高度和颜色 */
+  border-right: 7.46vw solid #DAE1E9; /* 左边框透明，形成向左的尖角 */
+  border-top: 3.73vw solid transparent; /* 上边框透明 */
+}
+
+.dhl1-1{
+	left: 0.373vw;
+	top: 0.1429vw;
+	position: absolute;
+	width: 0;
+  height: 0;
+  border-bottom: 3.6554vw solid transparent; /* 尖角的高度和颜色 */
+  border-right: 7.3108vw solid #AFBFCF; /* 左边框透明，形成向左的尖角 */
+  border-top: 3.6553vw solid transparent; /* 上边框透明 */
+}
+
+
+.dlh3{
+	width: 100%;
+	height: 100%;
+	background: #DAE1E9;
+	background:  linear-gradient(-135deg, transparent 1.492vw, #DAE1E9 0);
+}
+
+.dlh5{
+	width: 9.698vw;
+	height: 7.3108vw;
+	top: 0.0746vw;
+	background: #AFBFCF;
+	position: absolute;
+}
+
+.dlh3 a:link{
+	color: #272729;
+}
+.dlh3 a:visited{
+	color: #272729;
+}
+.dlh3 a:hover{
+	color: #DC3434;
+}
+
+.zydh1{
+	display: inline-block;
+	width: 8.206vw;
+	height: 5.6696vw;
+	margin-top: 0.1865vw;
+	background-color: #AFBFCF;
+	font-size: 2.6856vw;
+	padding-left: 1.492vw;
+	padding-top: 1.492vw;
+	text-shadow: 2px 2px 4px #000000;
+	
+}
+
+.zydh{
+	display: inline-block;
+	width: 8.206vw;
+	height: 5.6696vw;
+	margin-top: 0.1865vw;
+	background-color: #AFBFCF;
+	font-size: 2.6856vw;
+	padding-left: 1.492vw;
+	padding-top: 1.492vw;
+	text-shadow: 2px 2px 4px #000000;
+	margin-left: 0.4476vw;
+	
+}
+
+.k2{
+	display: flex;
+	padding-left: 20vw;
+}
+
+.k3{
+	width: 21%;
+}
+
+.b2{
+	z-index: 1;
+	background: #DAE1E9;
+}
+
+.wz1{
+	writing-mode:vertical-lr;
+	font-size: 1.7158vw;
+	color: #1F4A72;
+	padding-left: 0.0746px;
+}
+
+.sp2{
+	padding-left: 3.357vw;
+	padding-right: 1.492vw;
+}
+
+video{
+	height: 13vw;
+	width: 23.5vw;
+}
+
+.ita a:link{
+	color: #7F7F7F;
+}
+
+.ita a:visited{
+	color: #7F7F7F;
+}
+
+.ita a:hover{
+	color: #F18374;
+}

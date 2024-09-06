@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image: url("image/legotp.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+
+header{
+	position: fixed;
+	height: 169px;
+	width: 100%;
+}
+
+footer{
+	height: 5px;
+	width: 100%;
+	bottom: 0;
+}
+.index{
+	position: fixed;
+}
+.b1{
+	 display: flex; /* 使用Flex布局 */
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    height: 100vh; /* 设置容器高度为视口高度，可根据需要调整 */
+    width: 100%; /* 设置容器宽度为100%，可根据需要调整 */
+    text-align: center; /* 保证图片下的文本也居中（如果有的话） */
+	z-index: -1;
+	position: fixed;
+}
+
+.box1{
+	display: flex;
+	position: absolute;
+	z-index: 999;
+}
+
+.k1{
+	height: 4vw;
+	width: 78vw;
+	overflow: hidden;
+}
+
+.dhl2{
+	display: flex;
+	height: 7.46vw;
+    width: 52vw;
+    position: absolute;
+    top: 7.6vw;
+    left: 24vw;
+}
+
+.dhl1 {
+  width: 0;
+  height: 0;
+  border-bottom: 3.73vw solid transparent; /* 尖角的高度和颜色 */
+  border-right: 7.46vw solid #DAE1E9; /* 左边框透明，形成向左的尖角 */
+  border-top: 3.73vw solid transparent; /* 上边框透明 */
+}
+
+.dhl1-1{
+	left: 0.373vw;
+	top: 0.1429vw;
+	position: absolute;
+	width: 0;
+  height: 0;
+  border-bottom: 3.6554vw solid transparent; /* 尖角的高度和颜色 */
+  border-right: 7.3108vw solid #AFBFCF; /* 左边框透明，形成向左的尖角 */
+  border-top: 3.6553vw solid transparent; /* 上边框透明 */
+}
+
+
+.dlh3{
+	width: 100%;
+	height: 100%;
+	background: #DAE1E9;
+	background:  linear-gradient(-135deg, transparent 1.492vw, #DAE1E9 0);
+}
+
+.dlh5{
+	width: 9.698vw;
+	height: 7.3108vw;
+	top: 0.0746vw;
+	background: #AFBFCF;
+	position: absolute;
+}
+
+.dlh3 a:link{
+	color: #272729;
+}
+.dlh3 a:visited{
+	color: #272729;
+}
+.dlh3 a:hover{
+	color: #DC3434;
+}
+
+.zydh1{
+	display: inline-block;
+	width: 8.206vw;
+	height: 5.6696vw;
+	margin-top: 0.1865vw;
+	background-color: #AFBFCF;
+	font-size: 2.6856vw;
+	padding-left: 1.492vw;
+	padding-top: 1.492vw;
+	text-shadow: 2px 2px 4px #000000;
+	
+}
+
+.zydh{
+	display: inline-block;
+	width: 8.206vw;
+	height: 5.6696vw;
+	margin-top: 0.1865vw;
+	background-color: #AFBFCF;
+	font-size: 2.6856vw;
+	padding-left: 1.492vw;
+	padding-top: 1.492vw;
+	text-shadow: 2px 2px 4px #000000;
+	margin-left: 0.4476vw;
+	
+}
+
+.hdqy{
+	position: absolute;
+	left: 22.007vw;
+	top: 12.6074vw;
+	height: 47.371vw;
+	width: 57vw;
+	overflow-y: auto;
+}
+
+.yqdlg img{
+	width: 50%;
+	height: auto;
+}
+
+.lgzl img{
+	width: 100%;
+	height: auto;
+}
+
+.table2{
+	margin-top: 0.373vw;
+}
+
+.lg1 img{
+	height: 100%;
+	width: 100%;
+}

@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" >
+<title>我的日志本</title>
+<link rel="stylesheet" href="diary.css">
+<script src="diary.js"></script>
+</head>
+<body onload="getHistory()">
+<h3>我的日志本</h3>
+<!--记日志的文本框和相关按  7钮-->
+<div>
+<h4>开始写日志</h4>
+<!--日志记录框-->
+<textarea id="diary"></textarea>
+<br />
+<!--保存和删除按钮-->
+<button onclick="saveDiary()">保存日志</button>
+<button onclick="clearDiary()">删除全部日志</button>
+</div>
+
+<!--显示日志历史记录-->
+<div>
+<table border="1">
+<caption>历史记录</caption>
+<tr><th>序号</th><th>日志内容</th><th>保存时间</th><th>操作</th></tr>
+<tbody id="history"></tbody>
+</table>
+</div>
+</body>
+</html>
